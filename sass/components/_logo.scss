@@ -1,0 +1,37 @@
+@media screen and (max-width: 1200px) {
+  .footer__logotipe {
+    display: block;
+  }
+}
+.logotipe {
+  display: block;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-logotype);
+}
+.logotipe__accent {
+  color: #212121;
+}
+
+.footer__logotipe {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-logotype);
+  text-align: center;
+}
+
+.footer__logotipe-accent {
+  color: var(--color-logotipe-accent-footer);
+}
+
+@media screen and (min-width: 768px) {
+  .logotipe {
+    margin-right: 93px;
+  }
+}

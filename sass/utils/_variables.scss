@@ -1,0 +1,33 @@
+:root {
+  /*   Переменніе для body   */
+  --font-family-main: 'Roboto', sans-serif;
+  --color-text-main: #757575;
+  /* --font-family-secondary: 'Raleway', sans-serif; */
+  --color-bgd-main: #ffffff;
+  /* -------------------- */
+  --color-logotype: #2196f3;
+  --color-logotipe-accent-footer: #ffffff;
+  --color-menu-link: #212121;
+  --color-menu-link-hover: #2196f3;
+  --color-text-hero: #ffffff;
+  --color-btn-main: #2196f3;
+  --color-btn-main-hover: #188ce8;
+  --color-btn-text-main: #ffffff;
+  --color-bgd-team: #f5f4fa;
+  --color-fill-icon: #afb1b8;
+  /*------------------Footer------------ */
+  --color-bgd-secondary: #2f303a;
+  --color-footer-adress-link: #ffffff;
+  --color-footer-adress-link-hover: #2196f3;
+  --color-footer-contacts-link: rgba(255, 255, 255, 0.6);
+  /*    portfolio      */
+  --text-btn: #212121;
+  --color-btn: #f5f4fa;
+  --text-btn-hover: #ffffff;
+  --color-btn-hover: #2196f3;
+  --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-duration: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --extra-text-color: #212121;
+  --acent-color: rgb(33, 150, 243);
+}

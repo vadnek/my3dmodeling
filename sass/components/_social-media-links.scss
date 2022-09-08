@@ -1,0 +1,39 @@
+/* Стилизация списка социальных сетей на странице */
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media__item:not(:nth-child(4n)) {
+  margin-right: 10px;
+}
+
+.social-media__link {
+  transition-property: background-color;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+
+  justify-content: center;
+  align-items: center;
+
+  color: var(--color-fill-icon);
+  background-color: rgba(255, 255, 255, 0.1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--acent-color);
+    color: var(--color-footer-adress-link);
+  }
+}
+
+.social-media__icon {
+  fill: currentColor;
+}
+.social-media__icon-footer {
+  color: white;
+}
+
+.social-media__link-footer {
+  color: var(--color-footer-adress-link);
+}
