@@ -165,5 +165,8 @@
 <symbol id="icon-burger" viewBox="0 0 48 32">
 <path d="M0 5.333v-5.333h48v5.333h-48zM0 18.667h48v-5.333h-48v5.333zM0 32h48v-5.333h-48v5.333z"></path>
 </symbol>
+<symbol id="icon-rectangle" viewBox="0 0 32 32">
+<path fill="#487996" style="fill: var(--color1, #487996)" d="M0 12c0-6.627 5.373-12 12-12h20v20c0 6.627-5.373 12-12 12h-20v-20z"></path>
+</symbol>
 </defs>
 </svg>
