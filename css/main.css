@@ -1392,22 +1392,27 @@ body {
   transform: translatex(-17px);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
   .box-list {
     display: flex;
-    justify-content: space-between;
   }
 }
-.metod-img {
-  display: flex;
-  width: 555px;
+.pic {
+  padding-top: 80px;
 }
 
+@media screen and (max-width: 768px) {
+  .pic {
+    display: flex;
+    padding-top: 40px;
+  }
+}
 .models-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 40px;
+  gap: 16px 16px;
+  margin-top: 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1423,37 +1428,23 @@ body {
 .models-picture {
   display: flex;
   justify-content: center;
-  margin-top: 16px;
 }
 
-.models-picture:not(:nth-child(2n)) {
-  margin-right: 20px;
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .models-picture {
-    margin-top: 24px;
-  }
-  .models-picture:not(:last-child) {
-    margin-right: 32px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .models-picture {
-    margin-top: 40px;
+    width: calc(50% - 16px);
   }
 }
 .models-picture-draft {
-  width: 130px;
+  max-width: 100%;
 }
 
-@media screen and (min-width: 768px) {
-  .models-picture-draft {
-    width: 152px;
-  }
+.modeling-btn {
+  margin-bottom: 60px;
 }
+
 @media screen and (min-width: 1440px) {
-  .models-picture-draft {
-    width: 320px;
+  .modeling-btn {
+    margin-bottom: 80px;
   }
 }/*# sourceMappingURL=main.css.map */
